@@ -1,0 +1,144 @@
+Creating server: 'Holiday' : 15243
+RECEIVE: 'UPDATE 2e8590a357594778b29b8f0d7beb0fbc Welsh 1512397926.129416943 +34.068930-118.445127 0.002502918 Ball'
+CREATE NEW RECORD
+	id: '2e8590a357594778b29b8f0d7beb0fbc'
+	server: 'Welsh'
+	ts: 1512397926.129417
+	gps: '+34.068930-118.445127'
+	time_diff: 0.002502918
+
+RECEIVE: 'UPDATE 2e8590a357594778b29b8f0d7beb0fbc Welsh 1512397926.129416943 +34.068930-118.445127 0.002502918 Hamilton'
+RECORD ALREADY EXISTS
+
+RECEIVE: 'UPDATE 323d750bf9304563bd7a787687a4c5f1 Alford 1512397926.149931908 +34.068930-118.445127 0.001502037 Hamilton'
+CREATE NEW RECORD
+	id: '323d750bf9304563bd7a787687a4c5f1'
+	server: 'Alford'
+	ts: 1512397926.149932
+	gps: '+34.068930-118.445127'
+	time_diff: 0.001502037
+
+RECEIVE: 'UPDATE 323d750bf9304563bd7a787687a4c5f1 Alford 1512397926.149931908 +34.068930-118.445127 0.001502037 Ball'
+RECORD ALREADY EXISTS
+
+RECEIVE: 'WHATSAT 323d750bf9304563bd7a787687a4c5f1 1 1\n'
+SEND_REPLY: 
+AT Alford +0.001502037 323d750bf9304563bd7a787687a4c5f1 +34.068930-118.445127 1512397926.149931908
+{
+   "html_attributions" : [],
+   "results" : [
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 34.0522342,
+               "lng" : -118.2436849
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 34.3373061,
+                  "lng" : -118.1552891
+               },
+               "southwest" : {
+                  "lat" : 33.7036519,
+                  "lng" : -118.6681759
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+         "id" : "7f7b7d8118ae8db8ed3f541159ac928c484d12ad",
+         "name" : "Los Angeles",
+         "photos" : [
+            {
+               "height" : 712,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100101449848330425696/photos\"\u003ePatrick Morrison\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA-B1KkjcWnysYwppUQ6Pens_c_-GTIO7HXLeOKGV-6K1Ki1_v9fpZpOZTTEujMpKWYW64WEmyb-zXrr2wfIjbxXHKxR4xsQ1zVoO9IkpkpthEpm2MRIUXYVDHPC0U0G8OEhAY_EWq0vI-ezFr5ik-nSSYGhTN9SsccgF4E4xtxirlCOfx5tWY1w",
+               "width" : 1200
+            }
+         ],
+         "place_id" : "ChIJE9on3F3HwoAR9AhGJW_fL-I",
+         "reference" : "CmRbAAAAP2c5RghzMr8v9ehW6Ov9KSKSL6FL6Ds1UE525p0-jXZqzsplWUfEfNBhcXhcfubQzzDLnDKKoZTITVNMfXes6Eu_88jtcX03V4U1VAIWZftELCyNNTdyiZrHHpyLlk0fEhCLN4EzXgPwFpak6Ulz4-8dGhRWzezIKDygQrZ_2BxCjTmipCDO7A",
+         "scope" : "GOOGLE",
+         "types" : [ "locality", "political" ],
+         "vicinity" : "Los Angeles"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 34.0635016,
+               "lng" : -118.4455164
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 34.0827807,
+                  "lng" : -118.4141518
+               },
+               "southwest" : {
+                  "lat" : 34.0470589,
+                  "lng" : -118.4665319
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+         "id" : "87ef87c6cb98059f72b40a917e6e9c8c80e5d8b3",
+         "name" : "Westwood",
+         "photos" : [
+            {
+               "height" : 4079,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101183189993115226419/photos\"\u003ecmilton111\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAGJpo2ZywF6EJaYCFJT2qMOhJ1P-Q4H7cWoC7iJUHUy9sOavKmq1rYByFCEpL3jWOttPx_qxrf7grRQHnbFmW83spCaqrZLX-GUf8QA208RHLYvANtBVC3BnFAsPl-B54EhCzQUAGgiRtYMHC0WrjXNTXGhSfFvfs7wq01FGpx_oeaCyXlNUMdQ",
+               "width" : 3456
+            }
+         ],
+         "place_id" : "ChIJecf92oa8woARVlNT9X_x42M",
+         "reference" : "CmRbAAAAtmq0KeTh9ncXygkIwDtOlON5G6bqKxf1bt-lcaSbTXts38tAVLtW6wybdWyFZFe-mM6ZXE5EHX0_QT4YbvI-EKNquQKTyb3Re6eSyBbbLZCBS1jYXoYaSbd1d2cc-dFJEhAa7Lh4QAfLJe5vXKBdHhmfGhTo75o5IiRdcM2oh7JSHw6am8S80g",
+         "scope" : "GOOGLE",
+         "types" : [ "neighborhood", "political" ],
+         "vicinity" : "Los Angeles"
+      }
+   ],
+   "status" : "OK"
+}
+
+RECEIVE: 'UPDATE 60f10881c115495382fd6ee50659cac4 Alford 1512397927.644892931 +34.068930-118.445127 0.001018524 Hamilton'
+CREATE NEW RECORD
+	id: '60f10881c115495382fd6ee50659cac4'
+	server: 'Alford'
+	ts: 1512397927.644893
+	gps: '+34.068930-118.445127'
+	time_diff: 0.001018524
+
+RECEIVE: 'IAMAT fba54bd1517b4db6a464e3934e6b557c +34.068930-118.445127 1512397927.650398016\n'
+CREATE NEW RECORD
+	id: 'fba54bd1517b4db6a464e3934e6b557c'
+	server: 'Holiday'
+	ts: 1512397927.650398
+	gps: '+34.068930-118.445127'
+	time_diff: 0.004015207
+SEND_REPLY: AT Holiday +0.004015207 fba54bd1517b4db6a464e3934e6b557c +34.068930-118.445127 1512397927.650398016
+
+RECEIVE: 'UPDATE 60f10881c115495382fd6ee50659cac4 Alford 1512397927.644892931 +34.068930-118.445127 0.001018524 Ball'
+RECORD ALREADY EXISTS
+
+RECEIVE: 'IAMAT fba54bd1517b4db6a464e3934e6b557c +34.068930-118.445127 1512396927.650398016\n'
+SEND_REPLY: AT Holiday +0.004015207 fba54bd1517b4db6a464e3934e6b557c +34.068930-118.445127 1512397927.650398016
+
+RECEIVE: 'IAMAT fba54bd1517b4db6a464e3934e6b557c +34.068930-118.445127 1512398927.650398016\n'
+MODIFY RECORD
+	id: 'fba54bd1517b4db6a464e3934e6b557c'
+	server: 'Holiday'
+	ts: 1512398927.650398
+	gps: '+34.068930-118.445127'
+	time_diff: -999.979486942
+SEND_REPLY: AT Holiday -999.979486942 fba54bd1517b4db6a464e3934e6b557c +34.068930-118.445127 1512398927.650398016
+
+RECEIVE: 'UPDATE 95e8c1186d464e67a0dc49aacd6e36ac Hamilton 1512397927.707938910 +34.068930-118.445127 0.001012802 Hamilton'
+CREATE NEW RECORD
+	id: '95e8c1186d464e67a0dc49aacd6e36ac'
+	server: 'Hamilton'
+	ts: 1512397927.707939
+	gps: '+34.068930-118.445127'
+	time_diff: 0.001012802

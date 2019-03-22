@@ -1,0 +1,159 @@
+Creating server: 'Ball' : 15241
+RECEIVE: 'UPDATE 2e8590a357594778b29b8f0d7beb0fbc Welsh 1512397926.129416943 +34.068930-118.445127 0.002502918 Welsh'
+CREATE NEW RECORD
+	id: '2e8590a357594778b29b8f0d7beb0fbc'
+	server: 'Welsh'
+	ts: 1512397926.129417
+	gps: '+34.068930-118.445127'
+	time_diff: 0.002502918
+
+RECEIVE: 'WHATSAT\n'
+RECEIVE: 'WHATSAT 2e8590a357594778b29b8f0d7beb0fbc\n'
+RECEIVE: 'WHATSAT 2e8590a357594778b29b8f0d7beb0fbc 2\n'
+RECEIVE: 'WHATSAT 2e8590a357594778b29b8f0d7beb0fbc 1000 1\n'
+RECEIVE: 'WHATSAT 2e8590a357594778b29b8f0d7beb0fbc 1 1000\n'
+RECEIVE: 'WHATSAT 2e8590a357594778b29b8f0d7beb0fbc -10 10\n'
+RECEIVE: 'WHATSAT 2e8590a357594778b29b8f0d7beb0fbc 10 -10\n'
+RECEIVE: 'WHATSAT hello 10 -10\n'
+RECEIVE: 'WHATSAT 2e8590a357594778b29b8f0d7beb0fbc r 10\n'
+RECEIVE: 'WHATSAT 2e8590a357594778b29b8f0d7beb0fbc 10 l\n'
+RECEIVE: 'UPDATE 323d750bf9304563bd7a787687a4c5f1 Alford 1512397926.149931908 +34.068930-118.445127 0.001502037 Welsh'
+CREATE NEW RECORD
+	id: '323d750bf9304563bd7a787687a4c5f1'
+	server: 'Alford'
+	ts: 1512397926.149932
+	gps: '+34.068930-118.445127'
+	time_diff: 0.001502037
+
+RECEIVE: 'UPDATE 323d750bf9304563bd7a787687a4c5f1 Alford 1512397926.149931908 +34.068930-118.445127 0.001502037 Holiday'
+RECORD ALREADY EXISTS
+
+RECEIVE: 'WHATSAT 323d750bf9304563bd7a787687a4c5f1 1 1\n'
+SEND_REPLY: 
+AT Alford +0.001502037 323d750bf9304563bd7a787687a4c5f1 +34.068930-118.445127 1512397926.149931908
+{
+   "html_attributions" : [],
+   "results" : [
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 34.0522342,
+               "lng" : -118.2436849
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 34.3373061,
+                  "lng" : -118.1552891
+               },
+               "southwest" : {
+                  "lat" : 33.7036519,
+                  "lng" : -118.6681759
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+         "id" : "7f7b7d8118ae8db8ed3f541159ac928c484d12ad",
+         "name" : "Los Angeles",
+         "photos" : [
+            {
+               "height" : 712,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100101449848330425696/photos\"\u003ePatrick Morrison\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA88S18talGJBhx1IJAq_eCc2tlS4X0kI0OTt9TJvv0DEFrZgp8WbtRCgEib7_-bjoyTGDLp9hYQD7vN9BaA0ODyBfinhYjTzUEQ5_csKzYfh_p4SDaLmVjy0RlArv55BAEhBMwdv8nC1RbIqGQ_zIkG87GhTpczhi1Zzctjc2Dr_8HWHaQ6S4qg",
+               "width" : 1200
+            }
+         ],
+         "place_id" : "ChIJE9on3F3HwoAR9AhGJW_fL-I",
+         "reference" : "CmRbAAAAUzxr7io3rrqYaDFWlsTODQqQhDVlfAP_B3b9O9iMzsHOzeKXIQ83EF8VQqAtDqD8L9lKl-KM8_tw7BYmF1QTDUbk2o0-mBgk9GMAKqsvnTJ7iyNWUvl61GicAHHQoo8XEhD2oBaGDdrytgAX9ALX21ODGhQGS302e9sQTkqJp7PKaSUnYGr4fw",
+         "scope" : "GOOGLE",
+         "types" : [ "locality", "political" ],
+         "vicinity" : "Los Angeles"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 34.0635016,
+               "lng" : -118.4455164
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 34.0827807,
+                  "lng" : -118.4141518
+               },
+               "southwest" : {
+                  "lat" : 34.0470589,
+                  "lng" : -118.4665319
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+         "id" : "87ef87c6cb98059f72b40a917e6e9c8c80e5d8b3",
+         "name" : "Westwood",
+         "photos" : [
+            {
+               "height" : 4079,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101183189993115226419/photos\"\u003ecmilton111\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAADCk0u4ZR40JJj8WvaCSdRju5F3CVUHseoYlfMjdclPRlm8Zq60cAcS5m3QEeY5Qa_ArUQAF1RbJP2OTCIpI04BX5He_QhGTM7qzahME5SB1WrNLdA2VXbVDk5f0n8BiOEhBKaZNAuuRAsrbl67qzBRXBGhT2sDEc2JQiULvid3B3mnfRPVzafA",
+               "width" : 3456
+            }
+         ],
+         "place_id" : "ChIJecf92oa8woARVlNT9X_x42M",
+         "reference" : "CmRbAAAAh8EOD1m5LUjgypH3k7iuGtXSSCpzp58Zs2Yk3f6SIOb0hJGdGLkwvG44Oe_GQBh8xAeTztg8xa8Fi-3ktGTX47EPLkQz4ggd_jwEJM3QFOLviQpaWhWAWvAENsogS-vrEhAFpIosHZCGPnKXA5LQ7OnbGhTSck-LXjfbl2x-phI3REx0zJlhdQ",
+         "scope" : "GOOGLE",
+         "types" : [ "neighborhood", "political" ],
+         "vicinity" : "Los Angeles"
+      }
+   ],
+   "status" : "OK"
+}
+
+RECEIVE: 'UPDATE 60f10881c115495382fd6ee50659cac4 Alford 1512397927.644892931 +34.068930-118.445127 0.001018524 Welsh'
+CREATE NEW RECORD
+	id: '60f10881c115495382fd6ee50659cac4'
+	server: 'Alford'
+	ts: 1512397927.644893
+	gps: '+34.068930-118.445127'
+	time_diff: 0.001018524
+
+RECEIVE: 'UPDATE 60f10881c115495382fd6ee50659cac4 Alford 1512397927.644892931 +34.068930-118.445127 0.001018524 Holiday'
+RECORD ALREADY EXISTS
+
+RECEIVE: 'UPDATE fba54bd1517b4db6a464e3934e6b557c Holiday 1512397927.650398016 +34.068930-118.445127 0.004015207 Holiday'
+CREATE NEW RECORD
+	id: 'fba54bd1517b4db6a464e3934e6b557c'
+	server: 'Holiday'
+	ts: 1512397927.650398
+	gps: '+34.068930-118.445127'
+	time_diff: 0.004015207
+
+RECEIVE: 'UPDATE fba54bd1517b4db6a464e3934e6b557c Holiday 1512398927.650398016 +34.068930-118.445127 -999.979486942 Holiday'
+MODIFY RECORD
+	id: 'fba54bd1517b4db6a464e3934e6b557c'
+	server: 'Holiday'
+	ts: 1512398927.650398
+	gps: '+34.068930-118.445127'
+	time_diff: -999.979486942
+
+RECEIVE: 'LLL\n'
+RECEIVE: 'IAMTA kiwi +34.068930-118.445127 1479413884.392014450\n'
+RECEIVE: 'IAMAT ki wi +34.068930-118.445127 1479413884.392014450\n'
+RECEIVE: 'IAMAT kiwi 34.068930-118.445127 1479413884.392014450\n'
+RECEIVE: 'IAMAT kiwi -118.445127 1479413884.392014450\n'
+RECEIVE: 'IAMAT kiwi +18.445127 1479413884.392014450\n'
+RECEIVE: 'IAMAT kiwi Los_Angeles 1479413884.392014450\n'
+RECEIVE: 'IAMAT ki wi +34.068930-118.445127 NOW\n'
+RECEIVE: 'IAMAT kiwi +34.060000-118.000000 -1479413884.392014450\n'
+RECEIVE: 'IAMAT kiwi +34.060000-118.000000 -1479413884.392014450 HELLO\n'
+RECEIVE: 'UPDATE 95e8c1186d464e67a0dc49aacd6e36ac Hamilton 1512397927.707938910 +34.068930-118.445127 0.001012802 Holiday'
+CREATE NEW RECORD
+	id: '95e8c1186d464e67a0dc49aacd6e36ac'
+	server: 'Hamilton'
+	ts: 1512397927.707939
+	gps: '+34.068930-118.445127'
+	time_diff: 0.001012802
+
+RECEIVE: 'UPDATE 95e8c1186d464e67a0dc49aacd6e36ac Hamilton 1512397927.707938910 +34.068930-118.445127 0.001012802 Welsh'
+RECORD ALREADY EXISTS
