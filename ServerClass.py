@@ -255,7 +255,7 @@ class Server:
 
         #look up google places
         request = "GET /maps/api/place/nearbysearch/json?location=" \
-            +str(lat)+","+str(lon)+"&radius="+str(rad)+"&key=AIzaSyBpyAqAGfHNLdBAV7Aezp6j2SydexEMujU" \
+            +str(lat)+","+str(lon)+"&radius="+str(rad)+"&key=go away" \
             +" HTTP/1.1\r\n" \
             +"Host: "+"maps.googleapis.com\r\n" \
             +"Content-Type: text/plain; charset=utf-8\r\n\r\n\r\n"
